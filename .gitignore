@@ -2,3 +2,7 @@
 build/
 .gradle/
 gradle.properties
+.project
+.classpath
+.settings/
+bin/
