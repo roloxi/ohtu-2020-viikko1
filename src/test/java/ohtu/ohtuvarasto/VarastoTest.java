@@ -68,7 +68,7 @@ public class VarastoTest {
     @Test
     public void toStringTulostaaOikein() {
         varasto.lisaaVarastoon(4);
-        assertEquals("saldo = 4.0, vielä tilaa 6.0", varasto.toString());
+        assertEquals("saldo == 4.0, vielä tilaa 6.0", varasto.toString());
     }
 
     @Test
